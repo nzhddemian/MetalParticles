@@ -4,7 +4,6 @@ High-performance particle simulation where update + render both run on the GPU v
 
 ![ParticleLab Demo](screen-preview.gif)
 
-[Full video (MP4)](screen.MP4)
 
 ### Quick Usage
 
@@ -28,3 +27,4 @@ particleLab.setGravityWellProperties(
 - Supports up to four gravity wells.
 - `ParticleLabDelegate` provides `particleLabDidUpdate()`.
 - `resetGravityWells()` and `resetParticles()` are available.
+Based on early Metal experiments by FlexMonkey, reworked and extended.
