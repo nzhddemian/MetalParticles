@@ -11,7 +11,7 @@ import SwiftUI
 struct MetalParticlesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MetalSwiftUIView()
         }
     }
 }
